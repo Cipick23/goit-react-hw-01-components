@@ -1,4 +1,5 @@
 import Profile from "./profile/Profile";
+import Statistics from "./statistics/Statistics";
 import user from './user.json'
 
 export const App = () => {
@@ -12,6 +13,8 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+
+      <Statistics/>
     </div>
   );
 };
