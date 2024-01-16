@@ -1,0 +1,50 @@
+
+.card {
+    display: flex;
+    gap: 10px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.inlineCard {
+    width: 60%;
+    height: 35%;
+}
+
+.cardContent {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.gap {
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.avatar {
+    padding-left: 5px;
+    padding-right: 5px;
+}
