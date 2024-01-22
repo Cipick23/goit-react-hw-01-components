@@ -11,10 +11,10 @@ const Statistics = ({condition, items}) => {
             
         </ul>
         <ListGroup variant="flush">
-        {items.map(item => {
+            {items.map(item => {
                 return (
                 <ListGroup.Item key={item.id}>
-                    <span>{item.label} </span>
+                    <span>{item.label}</span>
                     <span>{item.percentage}</span>
                 </ListGroup.Item>
                 );
